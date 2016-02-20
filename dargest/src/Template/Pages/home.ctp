@@ -25,7 +25,6 @@ $cakeDescription = 'DARGest: Gérer votre ménage';
         <?= $cakeDescription?>
     </title>
     <?= $this->Html->meta('icon')?>
-    <?= $this->Html->css('signin.css')?>
     <?= $this->Html->css('bootstrap.min.css')?>
 </head>
 
