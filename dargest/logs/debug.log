@@ -163,3 +163,136 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
 
 
 
+2016-02-20 15:46:10 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 375
+App\Controller\UsersController::ajouter() - APP/Controller\UsersController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 18:14:23 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 375
+App\Controller\UsersController::ajouter() - APP/Controller\UsersController.php, line 32
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 19:33:49 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 375
+App\Controller\UsersController::ajouter() - APP/Controller\UsersController.php, line 32
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 19:58:01 Notice: Notice (8): Undefined variable: cakeDescription in [D:\git\dargest\src\Template\Layout\default.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Layout\default.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 21:41:03 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 375
+App\Controller\UsersController::modifier() - APP/Controller\UsersController.php, line 51
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 21:47:02 Notice: Notice (8): Undefined variable: title in [D:\git\dargest\src\Template\Layout\default.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Layout\default.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 21:47:02 Notice: Notice (8): Undefined variable: cakeDescription in [D:\git\dargest\src\Template\Layout\default.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Layout\default.ctp, line 27
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 21:47:26 Notice: Notice (8): Undefined variable: title in [D:\git\dargest\src\Template\Layout\default.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Layout\default.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-20 21:48:10 Notice: Notice (8): Undefined variable: title in [D:\git\dargest\src\Template\Layout\default.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Layout\default.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

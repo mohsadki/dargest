@@ -16,10 +16,10 @@ class UsersTable extends Table
 		->notEmpty('password', 'Le mot de passe est nécessaire');
 	}
 
-	protected function _setPassword($password)
-	{
-		return (new DefaultPasswordHasher)->hash($password);
-	}
+    protected function _setPassword($password)
+    {
+        return (new DefaultPasswordHasher)->hash($password);
+    }
 
 }
 

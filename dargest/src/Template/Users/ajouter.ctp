@@ -2,11 +2,20 @@
 <div class="panel panel-default">
 	<div class="panel-heading">Ajouter un nouvel utilisateur</div>
 	<div class="panel-body">
-	<?php echo $this->Form->create('utilisateur',array('type' => 'file','class'=>'form-signin','inputDefaults' => array ('label' =>false)));?>
+	<?php
+	
+echo $this->Form->create ( 'utilisateur', array (
+			'type' => 'file',
+			'class' => 'form-signin',
+			'inputDefaults' => array (
+					'label' => false 
+			) 
+	) );
+	?>
 		<fieldset>
 		<?php
 		
-echo $this->Form->input ( 'username', array (
+		echo $this->Form->input ( 'username', array (
 				'class' => 'form-control',
 				'placeholder' => 'Email',
 				'autofocus' => '',
@@ -18,7 +27,7 @@ echo $this->Form->input ( 'username', array (
 			<br>
 			<?php
 			
-echo $this->Form->input ( 'password', array (
+			echo $this->Form->input ( 'password', array (
 					'type' => 'password',
 					'class' => 'form-control',
 					'placeholder' => 'mot de passe',
@@ -29,7 +38,7 @@ echo $this->Form->input ( 'password', array (
 			<br>
 			<?php
 			
-echo $this->Form->input ( 'prenom', array (
+			echo $this->Form->input ( 'prenom', array (
 					'class' => 'form-control',
 					'placeholder' => 'prenom',
 					'autofocus' => '',

@@ -7,39 +7,15 @@ use Cake\Event\Event;
 use Cake\Network\Exception\NotFoundException;
 
 class UsersController extends AppController {
-	public function initialize() {
-		parent::initialize ();
-		$this->loadComponent ( 'Flash' ); // Charge le FlashComponent
-		$this->loadComponent ( 'Paginator' );
-		$this->loadComponent ( 'Auth', [ 
-				'loginRedirect' => [ 
-						'controller' => 'Accueil',
-						'action' => 'index' 
-				],
-				'logoutRedirect' => [ 
-						'controller' => 'Pages',
-						'action' => 'display',
-						'home' 
-				] 
-		] );
-	}
-	public function beforeFilter(Event $event) {
-		parent::beforeFilter ( $event );
-		// Permet aux Users de s'enregistrer et de se déconnecter.
-		$this->Auth->allow ( [ 
-				'ajouter' 
-		] );
-	}
 	public function index() {
+		$this->set ( 'title', 'Accueil des utilisateurs' );
 	}
 	public function login() {
-		$this->set ( 'title_for_layout', 'Authentification' );
 		if ($this->request->is ( 'post' )) {
 			$User = $this->Auth->identify ();
 			if ($User) {
 				
 				$this->Auth->setUser ( $User );
-				// ajouter la gestion des comptes inactifs
 				return $this->redirect ( $this->Auth->redirectUrl () );
 			} else {
 				$this->Flash->error ( __ ( "Adresse mail ou mot de passe incorrect, essayez à nouveau." ) );
@@ -47,12 +23,10 @@ class UsersController extends AppController {
 		}
 	}
 	public function ajouter() {
-		$this->set ( 'title_for_layout', 'Ajouter un nouvel utilisateur' );
+		$this->set ( 'title', 'Ajouter un nouvel utilisateur' );
 		$User = $this->Users->newEntity ();
 		if ($this->request->is ( 'post' )) {
 			$User = $this->Users->patchEntity ( $User, $this->request->data );
-			// forcer le role au nivau 1
-			// $User->role = 'niveau1';
 			if ($this->Users->save ( $User )) {
 				$this->layout = 'flash';
 				$this->Flash->success ( __ ( "Utilisateur sauvegardé." ) );
@@ -63,6 +37,25 @@ class UsersController extends AppController {
 			$this->Flash->error ( __ ( "Impossible d'ajouter l'utilisateur." ) );
 		}
 		$this->set ( 'User', $User );
+	}
+	public function logout() {
+		$this->set ( 'title', 'Authentification' );
+		return $this->redirect ( $this->Auth->logout () );
+	}
+	public function modifier($id = null) {
+		$this->set('title', "Modifier l'utilisateur");
+		$User = $this->Users->get($id);
+		if ($this->request->is(['post', 'put'])) {
+			$this->Users->patchEntity($User, $this->request->data);
+			if ($this->Users->save($User)) {
+				$this->layout = 'flash';
+				$this->Flash->success(__('modification effectuée.'));
+				return $this->redirect(['action' => 'index']);
+			}
+			$this->Flash->error(__('Impossible de modifier les informations.'));
+		}
+		
+		$this->set('User', $User);
 	}
 }
 

@@ -1,12 +1,23 @@
 <?php $this->layout = 'login'; ?>
+
 <div class="container">
-	<?php echo $this->Form->create('utilisateur',array('type' => 'file','class'=>'form-signin','inputDefaults' => array ('label' =>false)));?>
+	<blockquote><span style="color: #DF0101"> <?php echo $this->Flash->render() ?> </span></blockquote>
+	<?php
+	
+	echo $this->Form->create ( 'utilisateur', array (
+			'type' => 'file',
+			'class' => 'form-signin',
+			'inputDefaults' => array (
+					'label' => false 
+			) 
+	) );
+	?>
 	
 		<?php
 		
 		echo $this->Form->input ( 'username', array (
 				'class' => 'form-control',
-				'placeholder' => 'Email',
+				'placeholder' => 'email',
 				'autofocus' => '',
 				'label' => false,
 				'maxlength' => '50',
@@ -25,10 +36,6 @@
 			?>
 			
 		<?php $options = array('label' => 'Ajouter', 'class' => 'btn btn-primary','data-loading-text'=>'Ajout en cours');?>
-		<?php echo $this->Form->button("S'authentifiez-vous", $options); ?>
+		<?php echo $this->Form->button("S'authentifier", $options); ?>
 		<?php echo $this->Form->end()?>
-
-
-
-
 </div>
