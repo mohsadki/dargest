@@ -28,36 +28,39 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="/dargest/stats/index">Tableau de bord</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">Dropdown <span class="caret"></span></a>
+						aria-expanded="false">Factures <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li role="separator" class="divider"></li>
-							<li class="dropdown-header">Nav header</li>
-							<li><a href="#">Separated link</a></li>
-							<li><a href="#">One more separated link</a></li>
+							<li><a href="/dargest/factures/ajouter">Ajouter une nouvelle
+									facture</a></li>
+							<li><a href="/dargest/factures/lister">Liste des facture</a></li>
+						</ul></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Dépenses <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/dargest/depenses/ajouter">Ajouter une nouvelle
+									dépense</a></li>
+							<li><a href="/dargest/depenses/lister">Liste des dépenses</a></li>
 						</ul></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown"><a href="#"
-						class="dropdown-toggle btn btn-info" data-toggle="dropdown"><?php echo $this->Html->image('glyphicons_003_user.png'); ?>
+						class="dropdown-toggle btn btn-info" data-toggle="dropdown">
 							<?php $session = $this->request->session(); echo '<b>'.$session->read('Auth.User.prenom').'</b>'.' ['.$session->read('Auth.User.username').']'; ?><b
-							class="caret"></b> </a>
+							class="caret"></b>
+					</a>
 						<ul class="dropdown-menu">
-							<li><a href="/monep/users/edit"><?php
+							<li><?php
 							
 							echo $this->Html->link ( 'Modifier profil', array (
 									'controller' => 'users',
 									'action' => 'modifier/' . $session->read ( 'Auth.User.id' ) 
 							) );
 							?>
-								</a></li>
+								</li>
 							<li><a href="/dargest/users/logout">d&eacute;connexion</a></li>
 						</ul></li>
 				</ul>
@@ -65,19 +68,16 @@
 			<!--/.nav-collapse -->
 		</div>
 	</nav>
-
-	<div class="container"></div>
-	<!-- /container -->
-
-<?= $this->Flash->render()?>
-<?= $this->fetch('content')?>
-
-	<footer> </footer>
+	<div class="container">
+		<!-- /container -->
+		<br><br><br>
+		<?= $this->Flash->render()?>
+		<?= $this->fetch('content')?>
+	</div>
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery.min.js" type="text/javascript"></script>
-	<script type="text/javascript">window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/dargest/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/dargest/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>

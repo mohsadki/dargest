@@ -1,5 +1,5 @@
 <?php
-//use Cake\AuthComponent;
+// use Cake\AuthComponent;
 use Cake\Controller\AuthComponent;
 ?>
 <!DOCTYPE html>
@@ -66,8 +66,7 @@ use Cake\Controller\AuthComponent;
 							<li><a href="#">Créer un nouveau attachement</a></li>
 							<li><a href="#">Consulter la liste des attachements</a></li>
 							<li><a href="#">Consulter la liste des décomptes</a></li>
-						</ul>
-					</li>
+						</ul></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false"><img alt=""
@@ -77,8 +76,7 @@ use Cake\Controller\AuthComponent;
 							<li><a href="#">Déclarer un nouveau problème</a></li>
 							<li><a href="#">Consulter la liste des problèmes en cours</a></li>
 							<li><a href="#">Consulter la liste des problèmes résolus</a></li>
-						</ul>
-					</li>
+						</ul></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false"><img alt=""
@@ -91,8 +89,7 @@ use Cake\Controller\AuthComponent;
 							</li>
 							<li role="separator" class="divider"></li>
 							<li class="dropdown-header">les autres paramètres</li>
-						</ul>
-					</li>
+						</ul></li>
 					<li><a href="/monep/aides/index"><img alt=""
 							src="/monep/img/glyphicons-197-circle-exclamation-mark.png"> Aide</a>
 					</li>
@@ -102,12 +99,16 @@ use Cake\Controller\AuthComponent;
 							<?php $session = $this->request->session(); echo '<b>'.$session->read('Auth.User.username').'</b>'.' ['.$session->read('Auth.User.email').']'; ?><b
 								class="caret"></b> </a>
 							<ul class="dropdown-menu">
-								<li><a href="/monep/users/edit"><?php  echo $this->Html->link('Modifier profil',
-								array('controller' => 'users', 'action' => 'edit/'.$session->read('Auth.User.id'))); ?>
+								<li><a href="/monep/users/edit"><?php
+								
+echo $this->Html->link ( 'Modifier profil', array (
+										'controller' => 'users',
+										'action' => 'edit/' . $session->read ( 'Auth.User.id' ) 
+								) );
+								?>
 								</a></li>
 								<li><a href="/monep/users/logout">d&eacute;connexion</a></li>
-							</ul>
-						</li>
+							</ul></li>
 
 					</ul>
 			
@@ -125,9 +126,9 @@ use Cake\Controller\AuthComponent;
 				</div>
 				<div id="content">
 
-				<?= $this->Flash->render() ?>
+				<?= $this->Flash->render()?>
 
-				<?= $this->fetch('content') ?>
+				<?= $this->fetch('content')?>
 				</div>
 				<div id="footer">
 					<h6></h6>

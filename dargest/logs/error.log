@@ -2556,3 +2556,1424 @@ Stack Trace:
 #1 {main}
 
 
+2016-02-20 22:31:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:46:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:46:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:47:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:47:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:48:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:48:07 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /dargest/users/modifier/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/users/modifier/4
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 D:\git\dargest\src\Controller\UsersController.php(47): Cake\ORM\Table->get('js')
+#2 [internal function]: App\Controller\UsersController->modifier('js', 'bootstrap.min.j...')
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-02-20 22:48:08 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /dargest/users/modifier/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/users/modifier/4
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 D:\git\dargest\src\Controller\UsersController.php(47): Cake\ORM\Table->get('js')
+#2 [internal function]: App\Controller\UsersController->modifier('js', 'jquery.min.js')
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-02-20 22:48:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/users/modifier/4
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:48:08 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /dargest/users/modifier/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/users/modifier/4
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 D:\git\dargest\src\Controller\UsersController.php(47): Cake\ORM\Table->get('js')
+#2 [internal function]: App\Controller\UsersController->modifier('js', 'bootstrap.min.j...')
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-02-20 22:48:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/users
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:48:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:50:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 22:50:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 23:59:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-20 23:59:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:02:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:02:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:02:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:04:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:09:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:10:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:10:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dargest could not be found.
+Exception Attributes: array (
+  'class' => 'Dargest',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/dargest/factures/ajouter
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:10:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:11:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:11:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Stats could not be found.
+Exception Attributes: array (
+  'class' => 'Stats',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/stats/afficher
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:12:10 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/afficher
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:12:24 Error: [Cake\View\Exception\MissingTemplateException] Template file "Stats\afficher.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Stats\\afficher.ctp',
+)
+Request URL: /dargest/stats/afficher
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-21 00:13:53 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/afficher
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:14:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:14:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:14:06 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:06 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:41 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:14:41 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:41 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:14:55 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:55 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:14:55 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:18:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:18:21 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:18:22 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:18:22 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:25:12 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:25:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:25:12 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:25:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:25:29 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:25:29 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:02 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:03 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:03 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:14 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:15 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Depenses could not be found.
+Exception Attributes: array (
+  'class' => 'Depenses',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/depenses/ajouter
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:27 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:27 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:28 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:31 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:31 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:27:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:27:59 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:28:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:28:00 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:28:00 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:28:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:28:28 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/jquery.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:28:28 Error: [Cake\Controller\Exception\MissingActionException] Action StatsController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'StatsController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/stats/js/bootstrap.min.js
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\StatsController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:29:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:29:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:29:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:29:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:30:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/img/glyphicons_003_user.png
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:39:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Factures could not be found.
+Exception Attributes: array (
+  'class' => 'Factures',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/factures/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:40:31 Error: [Cake\Controller\Exception\MissingActionException] Action FacturesController::ajouter() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'FacturesController',
+  'action' => 'ajouter',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/factures/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FacturesController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:40:41 Error: [Cake\View\Exception\MissingTemplateException] Template file "Factures\ajouter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Factures\\ajouter.ctp',
+)
+Request URL: /dargest/factures/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FacturesController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-21 00:41:45 Error: [Cake\View\Exception\MissingTemplateException] Template file "Factures\ajouter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Factures\\ajouter.ctp',
+)
+Request URL: /dargest/factures/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FacturesController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-21 00:42:51 Error: [Cake\Controller\Exception\MissingActionException] Action FacturesController::lister() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'FacturesController',
+  'action' => 'lister',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/factures/lister
+Referer URL: http://127.0.0.1/dargest/factures/ajouter
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FacturesController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:43:04 Error: [Cake\View\Exception\MissingTemplateException] Template file "Factures\lister.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Factures\\lister.ctp',
+)
+Request URL: /dargest/factures/lister
+Referer URL: http://127.0.0.1/dargest/factures/ajouter
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FacturesController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-21 00:44:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Depenses could not be found.
+Exception Attributes: array (
+  'class' => 'Depenses',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /dargest/depenses/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-21 00:44:48 Error: [Cake\Controller\Exception\MissingActionException] Action DepensesController::ajouter() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'DepensesController',
+  'action' => 'ajouter',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/depenses/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:44:58 Error: [Cake\Controller\Exception\MissingActionException] Action DepensesController::ajouter() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'DepensesController',
+  'action' => 'ajouter',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/depenses/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 00:45:03 Error: [Cake\View\Exception\MissingTemplateException] Template file "Depenses\ajouter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Depenses\\ajouter.ctp',
+)
+Request URL: /dargest/depenses/ajouter
+Referer URL: http://127.0.0.1/dargest/stats/index
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
