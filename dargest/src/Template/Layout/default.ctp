@@ -70,7 +70,7 @@
 	</nav>
 	<div class="container">
 		<!-- /container -->
-		<br><br><br>
+		<br> <br> <br>
 		<?= $this->Flash->render()?>
 		<?= $this->fetch('content')?>
 	</div>
@@ -78,6 +78,10 @@
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="/dargest/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/dargest/js/jquery-ui.js" type="text/javascript"></script>
 	<script src="/dargest/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/dargest/js/bootstrap-datepicker.js" type="text/javascript"></script>
+	<script src="/dargest/js/bootstrap-datepicker.fr.min.js" type="text/javascript"></script>
+	<script src="/dargest/js/datepicker.js" type="text/javascript"></script>
 </body>
 </html>
