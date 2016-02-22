@@ -7392,3 +7392,383 @@ Stack Trace:
 #1 {main}
 
 
+2016-02-21 21:01:17 Error: Fatal Error (4): syntax error, unexpected ']' in [D:\git\dargest\src\Controller\DepensesController.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-02-21 21:01:18 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ']'
+Request URL: /dargest/depenses/ajouter
+Referer URL: http://127.0.0.1/dargest/
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'D:\\git\\dargest\\...', 22)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-21 22:19:32 Warning: Warning (2): Invalid argument supplied for foreach() in [D:\git\dargest\src\Template\Depenses\lister.ctp, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Depenses\lister.ctp, line 20
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-21 22:20:18 Warning: Warning (2): Invalid argument supplied for foreach() in [D:\git\dargest\src\Template\Depenses\lister.ctp, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Depenses\lister.ctp, line 20
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-21 22:20:27 Warning: Warning (2): Invalid argument supplied for foreach() in [D:\git\dargest\src\Template\Depenses\lister.ctp, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Depenses\lister.ctp, line 20
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-21 22:20:48 Warning: Warning (2): Invalid argument supplied for foreach() in [D:\git\dargest\src\Template\Depenses\lister.ctp, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Depenses\lister.ctp, line 20
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-21 22:21:25 Warning: Warning (2): Invalid argument supplied for foreach() in [D:\git\dargest\src\Template\Depenses\lister.ctp, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Depenses\lister.ctp, line 20
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-21 22:22:55 Warning: Warning (2): Invalid argument supplied for foreach() in [D:\git\dargest\src\Template\Depenses\lister.ctp, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - APP/Template\Depenses\lister.ctp, line 20
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-21 22:32:10 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/users/afficher/29
+Referer URL: http://127.0.0.1/dargest/depenses/lister?page=2&sort=id&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 22:36:05 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::desactiver() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'desactiver',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/users/desactiver/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=id&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 22:37:04 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /dargest/users/modifier/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=id&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 D:\git\dargest\src\Controller\UsersController.php(47): Cake\ORM\Table->get('20')
+#2 [internal function]: App\Controller\UsersController->modifier('20')
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-02-21 22:37:29 Error: [Cake\Controller\Exception\MissingActionException] Action DepensesController::modifier() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'DepensesController',
+  'action' => 'modifier',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/depenses/modifier/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=id&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 22:38:09 Error: [Cake\View\Exception\MissingTemplateException] Template file "Depenses\modifier.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Depenses\\modifier.ctp',
+)
+Request URL: /dargest/depenses/modifier/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=id&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-21 22:43:57 Error: [Cake\Controller\Exception\MissingActionException] Action DepensesController::supprimer() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'DepensesController',
+  'action' => 'supprimer',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/depenses/supprimer/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 23:44:53 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::delete() must be an instance of Cake\Datasource\EntityInterface, string given, called in D:\git\dargest\src\Controller\DepensesController.php on line 41 and defined in [D:\git\dargest\vendor\cakephp\cakephp\src\ORM\Table.php, line 1644]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+Cake\ORM\Table::delete() - CORE\src\ORM\Table.php, line 1644
+App\Controller\DepensesController::supprimer() - APP/Controller\DepensesController.php, line 41
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-21 23:44:54 Error: Fatal Error (1): Call to a member function isNew() on string in [D:\git\dargest\vendor\cakephp\cakephp\src\ORM\Table.php, line 1689]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-02-21 23:44:54 Error: [Cake\Error\FatalErrorException] Call to a member function isNew() on string
+Request URL: /dargest/depenses/supprimer/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=description&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\git\\dargest\\...', 1689)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-21 23:46:03 Error: [Cake\View\Exception\MissingTemplateException] Template file "Depenses\supprimer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Depenses\\supprimer.ctp',
+)
+Request URL: /dargest/depenses/supprimer/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=description&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-21 23:46:34 Error: Fatal Error (4): syntax error, unexpected '}', expecting ']' in [D:\git\dargest\src\Controller\DepensesController.php, line 45]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-02-21 23:46:34 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '}', expecting ']'
+Request URL: /dargest/depenses/supprimer/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=description&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'D:\\git\\dargest\\...', 45)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-21 23:46:49 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "depenses"
+Request URL: /dargest/depenses/supprimer/20
+Referer URL: http://127.0.0.1/dargest/depenses/lister?sort=description&direction=asc
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 D:\git\dargest\src\Controller\DepensesController.php(40): Cake\ORM\Table->get('20')
+#2 [internal function]: App\Controller\DepensesController->supprimer('20')
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#6 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-02-21 23:54:36 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/users/afficher/25
+Referer URL: http://127.0.0.1/dargest/depenses/lister
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 23:54:49 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/users/afficher/25
+Referer URL: http://127.0.0.1/dargest/depenses/lister
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 23:56:00 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/users/afficher/25
+Referer URL: http://127.0.0.1/dargest/depenses/lister
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 23:56:42 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/users/afficher/25
+Referer URL: http://127.0.0.1/dargest/depenses/lister
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 23:56:50 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afficher() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'afficher',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /dargest/users/afficher/25
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-21 23:56:56 Error: [Cake\View\Exception\MissingTemplateException] Template file "Depenses\afficher.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Depenses\\afficher.ctp',
+)
+Request URL: /dargest/depenses/afficher/25
+Referer URL: http://127.0.0.1/dargest/depenses/lister
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 D:\git\dargest\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\git\dargest\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DepensesController))
+#4 D:\git\dargest\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-22 00:26:23 Error: Fatal Error (4): syntax error, unexpected '|' in [D:\git\dargest\src\Template\Depenses\afficher.ctp, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-02-22 00:26:23 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '|'
+Request URL: /dargest/depenses/afficher/25
+Referer URL: http://127.0.0.1/dargest/depenses/afficher/25
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'D:\\git\\dargest\\...', 15)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

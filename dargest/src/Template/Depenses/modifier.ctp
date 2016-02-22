@@ -1,7 +1,7 @@
 <?php $this->layout = 'default'; ?>
 <div class="page-header">
 	<h3>
-		Gestion des dépenses <small>ajouter une dépense</small>
+		Gestion des dépenses <small>modifier une dépense</small>
 	</h3>
 </div>
 

@@ -25,10 +25,10 @@
 			<tbody>
 			<?php foreach ($utilisateurs as $utilisateur):?>
 				<tr>
-					<td><center>
+					<td>
 					<?php echo $this->Html->link($utilisateur->id,
 					array('controller' => 'users', 'action' => 'afficher/'.$utilisateur->id)); ?>
-						</center></td>
+						</td>
 					<td><?php echo $utilisateur->username; ?>
 					</td>
 					<td><?php echo $utilisateur->prenom; ?>

@@ -71,7 +71,9 @@
 	<div class="container">
 		<!-- /container -->
 		<br> <br> <br>
-		<?= $this->Flash->render()?>
+		<blockquote>
+			<span style="color: #DF0101"> <?php echo $this->Flash->render() ?> </span>
+		</blockquote>
 		<?= $this->fetch('content')?>
 	</div>
 	<!-- Bootstrap core JavaScript
@@ -80,8 +82,10 @@
 	<script src="/dargest/js/jquery.min.js" type="text/javascript"></script>
 	<script src="/dargest/js/jquery-ui.js" type="text/javascript"></script>
 	<script src="/dargest/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/dargest/js/bootstrap-datepicker.js" type="text/javascript"></script>
-	<script src="/dargest/js/bootstrap-datepicker.fr.min.js" type="text/javascript"></script>
+	<script src="/dargest/js/bootstrap-datepicker.js"
+		type="text/javascript"></script>
+	<script src="/dargest/js/bootstrap-datepicker.fr.min.js"
+		type="text/javascript"></script>
 	<script src="/dargest/js/datepicker.js" type="text/javascript"></script>
 </body>
 </html>
