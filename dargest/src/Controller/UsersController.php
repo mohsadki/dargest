@@ -5,9 +5,10 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Cake\Event\Event;
 use Cake\Network\Exception\NotFoundException;
+use Cake\ORM\TableRegistry;
 
 class UsersController extends AppController {
-	public function index() {
+	public function index2() {
 		$this->set ( 'title', 'Accueil des utilisateurs' );
 	}
 	public function login() {
@@ -43,19 +44,33 @@ class UsersController extends AppController {
 		return $this->redirect ( $this->Auth->logout () );
 	}
 	public function modifier($id = null) {
-		$this->set('title', "Modifier l'utilisateur");
-		$User = $this->Users->get($id);
-		if ($this->request->is(['post', 'put'])) {
-			$this->Users->patchEntity($User, $this->request->data);
-			if ($this->Users->save($User)) {
+		$this->set ( 'title', "Modifier l'utilisateur" );
+		$User = $this->Users->get ( $id );
+		if ($this->request->is ( [ 
+				'post',
+				'put' 
+		] )) {
+			$this->Users->patchEntity ( $User, $this->request->data );
+			if ($this->Users->save ( $User )) {
 				$this->layout = 'flash';
-				$this->Flash->success(__('modification effectuée.'));
-				return $this->redirect(['action' => 'index']);
+				$this->Flash->success ( __ ( 'modification effectuée.' ) );
+				return $this->redirect ( [ 
+						'action' => 'index' 
+				] );
 			}
-			$this->Flash->error(__('Impossible de modifier les informations.'));
+			$this->Flash->error ( __ ( 'Impossible de modifier les informations.' ) );
 		}
 		
-		$this->set('User', $User);
+		$this->set ( 'User', $User );
+	}
+	public function index() {
+		$this->set ( 'title', 'Tableau de bord' );
+		$users = TableRegistry::get ( 'Users' );
+		$query = $this->Users->find('all');
+		//$query = $this->Users->select ( ['count' => $query->func ()->count ( '*' ) 	] );
+		//$query->toArray ();
+		 die($query);
+		$this->set ( 'UsersCount', $query );
 	}
 }
 
