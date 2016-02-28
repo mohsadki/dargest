@@ -66,11 +66,16 @@ class UsersController extends AppController {
 	public function index() {
 		$this->set ( 'title', 'Tableau de bord' );
 		$users = TableRegistry::get ( 'Users' );
-		$query = $this->Users->find('all');
-		//$query = $this->Users->select ( ['count' => $query->func ()->count ( '*' ) 	] );
-		//$query->toArray ();
-		 die($query);
+		$query = $this->Users->find ();
+		$query->select ( ['count' => $query->func ()->count ( '*' ) ] );
+	
 		$this->set ( 'UsersCount', $query );
+		
+		foreach ( $query as $row ) {
+			echo $row->id;
+			$this->set ( 'UsersCount', $row->count );
+			//echo $row->password;
+		}
 	}
 }
 
