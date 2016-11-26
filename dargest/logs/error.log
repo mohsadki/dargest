@@ -10129,3 +10129,37 @@ Stack Trace:
 #1 {main}
 
 
+2016-04-30 18:00:30 Error: Fatal Error (4): syntax error, unexpected 'b' (T_STRING), expecting ']' in [D:\git\dargest\src\Controller\UsersController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-04-30 18:00:32 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'b' (T_STRING), expecting ']'
+Request URL: /dargest/users/login
+Referer URL: http://localhost/
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'D:\\git\\dargest\\...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-30 21:25:49 Error: Fatal Error (4): syntax error, unexpected 'b' (T_STRING), expecting ']' in [D:\git\dargest\src\Controller\UsersController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-04-30 21:25:50 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'b' (T_STRING), expecting ']'
+Request URL: /dargest/users/login
+Referer URL: http://localhost/
+Stack Trace:
+#0 D:\git\dargest\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'D:\\git\\dargest\\...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="dargest"/>
+	<buildpathentry kind="src" path="monep"/>
+	<buildpathentry kind="src" path="qrweb"/>
+	<buildpathentry kind="src" path="rpweb"/>
+	<buildpathentry kind="src" path="SugarCE"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>
